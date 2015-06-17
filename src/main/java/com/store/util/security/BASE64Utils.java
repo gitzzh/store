@@ -5,7 +5,7 @@ import java.io.UnsupportedEncodingException;
 import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
 
-public class BASE64 {
+public class BASE64Utils {
 	// 加密
     public static String encode(String str) {  
         byte[] b = null;  
