@@ -6,7 +6,7 @@ import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
 
 public class BASE64 {
-	// ¼ÓÃÜ  
+	// åŠ å¯†
     public static String encode(String str) {  
         byte[] b = null;  
         String s = null;  
@@ -21,7 +21,7 @@ public class BASE64 {
         return s;  
     }  
   
-    // ½âÃÜ  
+    // è§£å¯†
     public static String decode(String s) {  
         byte[] b = null;  
         String result = null;  
